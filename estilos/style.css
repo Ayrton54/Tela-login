@@ -6,24 +6,27 @@
     lilás:#5f2c82
 */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
 
-body,html{
-    background-color:#5f2c82 ;
+body,
+html {
+    background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
 }
-main{
+
+main {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
-section#login{
+
+section#login {
     position: absolute;
     background-color: white;
     border-radius: 20px;
@@ -31,17 +34,19 @@ section#login{
     left: 50%;
     width: 250px;
     height: 500px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
 }
-section#login > div#imagens{
-    background: #5f2c82 url('../imagens/pexels-julie-aagaard-1426718\ \(1\).jpg')no-repeat right bottom ;
+
+section#login>div#imagens {
+    background: #5f2c82 url('../imagens/pexels-julie-aagaard-1426718\ \(1\).jpg')no-repeat right bottom;
     background-size: cover;
     height: 200px;
     display: block;
 }
-section#login > div#formulario{
+
+section#login>div#formulario {
     padding: 10px;
     display: block;
 }
